@@ -1,3 +1,26 @@
 body{
     margin-top:15px;
 }
+body { margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 14px;line-height: 150%;background: #fff;position: relative;height: 100%; }.headerContainer, .bodyContainer { max-width: 980px; margin: 0 auto; background: #FFF; }.padding { padding: 10px 20px; }.bodyContainer { min-height: 500px; }
+
+
+/* .month {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #008CBA;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.month:active {
+  background-color: #008CBA;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} */
