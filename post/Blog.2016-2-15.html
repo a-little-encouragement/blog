@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A Little Encouragement</title>
     <link rel="icon" href="../favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./framework/css/foundation.css" />
+    <link rel="stylesheet" href="../framework/css/foundation.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css">
     <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
@@ -20,6 +20,13 @@
 </head>
 
 <body>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <div class="row">
         <div class="large-12 columns">
             <div class="nav-bar right">
@@ -43,6 +50,7 @@
     <div class="row">
 
         <div class="large-9 columns" role="content">
+<div class="fb-like" data-href="http://www.alittleencouragement.com/post/2016/2/Blog.2016-2-15.html" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
             <article>
                 <h3><a href="#">The Dance</a></h3>
                 <h6>Written by <a href="#">Dallas Pepper</a> on February 15th, 2016.</h6>
@@ -78,7 +86,8 @@ I hear Jesus’ voice and He calls me by name and leads me out. Jesus goes befor
 <a href="https://youtu.be/I6v-SNNC59o">Lord of the Dance(Bethel)</a>
 		
                 </p>
-            </article>						
+            </article>	
+<div class="fb-comments" data-href="http://www.alittleencouragement.com/post/2016/2/Blog.2016-2-15.html" data-numposts="5"></div>												
         </div>
 
 
@@ -146,8 +155,8 @@ I hear Jesus’ voice and He calls me by name and leads me out. Jesus goes befor
         </div>
     </footer>
 
-    <script src="./framework/js/vendor/jquery.js"></script>
-    <script src="./framework/js/foundation.min.js"></script>
+    <script src="../framework/js/vendor/jquery.js"></script>
+    <script src="../framework/js/foundation.min.js"></script>
     <script>
         $(document).foundation();
     </script>
