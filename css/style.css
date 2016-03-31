@@ -3,6 +3,17 @@ body{
 }
 body { margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 14px;line-height: 150%;background: #fff;position: relative;height: 100%; }.headerContainer, .bodyContainer { max-width: 980px; margin: 0 auto; background: #FFF; }.padding { padding: 10px 20px; }.bodyContainer { min-height: 500px; }
 
+.hidden{
+       display:none;
+    }
+	
+.blackLink a{
+	color : #000000;
+}
+
+.blueLink a{
+	color : #008CBA;
+}
 
 /* .month {
   display: inline-block;
